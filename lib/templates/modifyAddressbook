@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8" ?>
+  <D:propertyupdate xmlns:D="DAV:" xmlns:C="urn:ietf:params:xml:ns:carddav">
+    <D:set>
+      <D:prop>
+      	{{#if description}}
+        <C:addressbook-description>{{description}}</C:addressbook-description>
+        {{/if}}
+        {{#if name}}
+        <D:displayname>{{name}}</D:displayname>
+        {{/if}}
+      </D:prop>
+  </D:set>
+</D:propertyupdate>
