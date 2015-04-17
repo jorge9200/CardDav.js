@@ -7,9 +7,9 @@
           <C:addressbook/>
         </D:resourcetype>
         <D:displayname>{{name}}</D:displayname>
-        {{#description}}
+        {{#if description}}
         <C:addressbook-description>{{description}}</C:addressbook-description>
-        {{/description}}
+        {{/if}}
       </D:prop>
   </D:set>
 </D:mkcol>
