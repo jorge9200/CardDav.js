@@ -12,7 +12,7 @@
     "lodash" : "3.6.0",
     "lodash-deep" : "1.6.0",
     "vcards-js"   : "https://github.com/jorge9200/vCards-js/tarball/master",
-    "vcardparser" : "https://github.com/javiergarmon/node-vcardparser/tarball/master",
+    "vcardparser" : "https://github.com/javiergarmon/node-vcardparser/tarball/master"
   },
   "license": "MIT",
   "readmeFilename": "README.md"
